@@ -1,0 +1,82 @@
+header{
+  width: cover;
+  height: 400px;
+  text-align: center;
+  background: url("bg.jpg");
+  background-size: cover;
+  color: white;
+}
+
+body{
+  text-align: center;
+  font-family: serif;
+
+}
+
+p{
+  text-align: center;
+  color: yellow;
+  font-size: 20px;
+}
+
+h1:hover{
+  color: red;
+}
+
+img{
+  width: 150px;
+  margin: 15px 0px 0px 0px;
+  border-radius: 400px;
+  border: 5px solid gray;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+input{
+  border: 0 thin;
+  padding: 5px;
+  font-size: 15px;
+}
+
+input[type="submit"]{
+  background: gray;
+  color: black;
+}
+
+input:hover{
+  background-color: lightgrey;
+  border: none;
+  color: red;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.C1{
+  width = 30%;
+}
+
+.C2{
+  width = 70%:
+}
+
+
+table{
+  width: cover;
+  margin: 30px;
+  border-radius: 15px 50px;
+}
+
+table.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,th,td{
+  font-size: 20px;
+  border: 2px solid gray;
+  padding: 12px;
+}
