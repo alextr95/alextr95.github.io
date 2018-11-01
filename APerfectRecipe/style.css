@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 200vh;
+    background-color:lightgoldenrodyellow; 
+}
+
+h1{
+    color: red;
+    font-family: serif;
+    font-display: bold;
+}
+
+h2{
+    color: orange;
+}
+
+#one{
+    height:150vh;
+    width:40vh;
+}
+
+#two{
+    height: 124vh;
+    width: 30vh;
+}
+
+#three{
+    height: 124vh;
+    width: 30vh;
+  
+
+}
+
+#four{
+    height: 124vh;
+    width: 30vh;
+    justify-items: center;
+}
