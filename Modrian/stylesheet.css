@@ -1,181 +1,110 @@
 body{
-
     background: #f6f6f6;
-    
-    }
-    
-    .painting{
-    
+}
+.painting{
     background: #fff4db;
-    
     width: 400px;
-    
     height: 400px;
-    
     margin-top: 30px;
-    
     margin-right: auto;
-    
     margin-left: auto;
-    
     box-shadow: 10px 10px 5px #8d8d8d ;
+}
 
-    display: flex;
-    flex-direction: column;
-    
-    }
-    
-    .topleftcolumn{
-    display: flex;
-    flex-direction: column;
-    }
-
-    .toprow{
-    display: flex;
-    flex-direction: row;                    
-    
-    height: 29px;
-    
-    }
-    
-    .bigbox{
-    
-    width: 290px;
-    
-    height:290px;
-    
-    }
-    
-    .red{
-    
-    background: #cc3333;
-    
-    }
-    
-    .blue{
-    
-    background: #0000ff;
-    
-    }
-    
-    .yellow{
-    
-    background: #ffff00;
-    
-    }
-    
-    .black{
-    
-    background: #000000;
-    
-    }
-    
-    .right{
-    
-    float:right;
-    
-    }
-    
-    .left{
-    
-    float: left;
-    
-    }
-    
-    .divider1{
-    
+.toprow{
     height: 290px;
-    
-    width: 10px;
-    
-    }
-    
-    .mediumbox{
-    
-    width: 100px;
-    
-    height: 140px;
-    
-    }
-    
-    .divider2{
-    
-    height: 10px;
-    
-    width: 100px;
-    
-    }
-    
-    .midllerow{
-    
+}
+
+.middlerow{
     width: 400px;
-    
     height:10px;
-    
-    }
-    
-    .bottomrow{
-    
+}
+
+.bottomrow{
     height:100px;
-    
-    }
-    
-    .divider3{
-    
-    height:100px;
-    
+}
+
+.bigbox{
+    width: 290px;
+    height:290px;
+}
+
+.red{
+    background: #cc3333;
+}
+
+.blue{
+    background: #0000ff;
+}
+
+.yellow{
+    background: #ffff00;
+}
+
+.black{
+    background: #000000;
+}
+
+.right{
+    float:right;
+}
+
+.left{
+    float: left;
+}
+
+.divider1{
+    height: 290px;
     width: 10px;
-    
-    }
-    
-    .smallbox{
-    
-    height:45px;
-    
-    width:20px;
-    
-    }
-    
-    .divider4{
-    
-    height:10px;
-    
-    width:20px;
-    
-    }
-    
-    .top{
-    
-    float: top;
-    
-    }
-    
-    .bottom{
-    
-    float: bottom;
-    
-    }
-    
-    .divider5{
-    
+}
+
+.mediumbox{
+    width: 100px;
+    height: 140px;
+}
+
+.divider2{
+    height: 10px;
+    width: 100px;
+}
+
+.divider3{
     height: 100px;
-    
+    width: 10px;
+}
+
+.smallbox1{
+    height: 45px;
+    width: 20px;
+}
+
+.smallbox2{
+    height: 45px;
+    width: 20px;
+    position: absolute;
+    bottom:0;
+}
+
+.bottomrightcolumn{
+    height: 100px;
+    position: relative;
+}
+
+.divider4{
+    height:10px;
+    width:20px;
+}
+
+.divider5{
+    height: 100px;
     width:10px;
-    
-    }
-    
-    .box2{
-    
+}
+.box2{
     height:100px;
-    
     width:260px;
-    
-    }
-    
-    .box3{
-    
+}
+
+.box3{
     height:100px;
-    
     width:100px;
-    
-    }
+}
