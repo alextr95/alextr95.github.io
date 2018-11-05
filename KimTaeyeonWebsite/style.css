@@ -37,7 +37,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-table th:first-child,.w3-table td:first-child,.w3-table-all th:first-child,.w3-table-all td:first-child{padding-left:16px}
 .w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
 .w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
-.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
 .w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
 .w3-btn.w3-disabled:hover,.w3-btn:disabled:hover{box-shadow:none}
 .w3-badge,.w3-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.w3-badge{border-radius:50%}
@@ -85,7 +85,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-hide{display:none!important}.w3-show-block,.w3-show{display:block!important}.w3-show-inline-block{display:inline-block!important}
 @media (max-width:1205px){.w3-auto{max-width:95%}}
 @media (max-width:600px){.w3-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}
-.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}	
+.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}
 .w3-hide-small{display:none!important}.w3-mobile{display:block;width:100%!important}.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{text-align:center}
 .w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}}
 @media (max-width:768px){.w3-modal-content{width:500px}.w3-modal{padding-top:50px}}
@@ -239,7 +239,7 @@ div#container{
     -webkit-perspective-origin: 0% 0%;
     width: 850px;
     height: 600px;
-    
+
     top: 0px;
     color:white;
     margin: 0px auto;
@@ -332,4 +332,100 @@ div#leftwing{
     to{
         -webkit-transform:rotateX(90deg) rotate3d(0, 1, 0, 00deg);
     }
+}
+
+
+
+
+
+
+/*thumbnail gallery */
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+	font-size: 62.5%;
+}
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+  -webkit-backface-visibility: hidden;
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #000;
+	box-shadow: 0 15px 50px rgba(0,0,0,.5);
+}
+
+
+div.gallery:hover {
+    border: 1px solid #777;
+    position: relative;
+    top: -25px;
+    left: -35px;
+    width: 700px;
+    height: auto;
+    display: block;
+    z-index: 999;
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+	max-width: 100%;
+	transition: opacity .2s ease-in-out;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;}
+
+
+div.gallery:after {
+        content:attr(data-title) "\A" attr(data-description1) "\A" attr(data-description2)"\A" attr(data-description3);
+        white-space:pre-wrap;
+    }
+
+.gallery::after, .gallery::before{
+  position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 50%;
+	transition: transform .4s ease-out;
+	color: #fff;
+}
+.gallery::after {
+	content: attr(data-title)"";
+	top: 0;
+	padding-top: 55px;
+	transform: translateY(-100%) scale(.8);
+	background: rgba(0,0,0,.4);
+	font-size: 3.5rem;
+	font-weight: 300;
+	font-family: Merriweather, serif;
+	text-align: center;
+}
+.gallery::before {
+	content: attr(data-description) "";
+	top: 50%;
+	padding: 20px;
+	transform: translateY(100%) scale(.8);
+	background: rgba(107,38,68,.6);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	color: #f1f1f1;
+	font-size: 1.5rem;
+}
+.gallery:hover::after,
+.gallery:hover::before {
+	transform: translateY(0%) scale(1);
 }
