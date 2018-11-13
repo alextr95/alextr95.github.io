@@ -283,6 +283,10 @@ div.desc {
 
 }
 
+.e1,.e2,.e3,.e4{
+	border: 1px solid #777;
+}
+
 /*Subcribe box */
 .simple-subscription-form {
 	color: black;
