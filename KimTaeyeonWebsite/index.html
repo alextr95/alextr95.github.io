@@ -1,58 +1,38 @@
-<!DOCTYPE html>
 <html>
 <head>
-<title>Kim Taeyeaon Official Website</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
-body {font-family: "Open Sans"}
-</style>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="bootstrap-social-gh-pages/bootstrap-social.css"
 </head>
-
-
-<body class="w3-white">
+<body>
+  <div class="content" style="max-width:1600px">
+<!-- Menu Tab -->
 <div>
-<!-- Navigation bar with social media icons -->
-<div class="w3-bar w3-hide-small w3-purple">
-  <a href="https://www.instagram.com/taeyeon_ss/?hl=en" class="w3-bar-item w3-button w3-hover-pink"><i class="fa fa-instagram"></i></a>
-  <a href="https://www.facebook.com/smtown/" class="w3-bar-item w3-button w3-hover-pink"><i class="fa fa-facebook-official"></i></a>
-  <a href="https://www.youtube.com/watch?v=4OrCA1OInoo&list=PLF_fyHPEoqjQknCAYY4cQMFt0mm_Y_scH&index=1" class="w3-bar-item w3-button w3-hover-pink"><i class="fa fa-youtube"></i></a>
-  <button class="w3-button w3-hover-pink w3-padding-small w3-large w3-opacity " onclick="document.getElementById('subscribe').style.display='block'">Subscribe</button>
-  <a href="#" class="w3-bar-item w3-button w3-right w3-hover-pink"><i class="fa fa-search"></i></a>
-</div>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a href="https://www.instagram.com/taeyeon_ss/?hl=en"><button type="button" class="btn btn-lg btn-so btn-ins"><i class="fa fa-instagram pr-1"></i> Instagram</button></a>
+      <a href="https://www.youtube.com/watch?v=4OrCA1OInoo&list=PLF_fyHPEoqjQknCAYY4cQMFt0mm_Y_scH&index="><button type="button" class="btn btn-lg btn-so btn-yt"><i class="fa fa-youtube pr-1"></i> Youtube</button></a>
+      <a href="https://www.facebook.com/smtown/"></a><button type="button" class="btn btn-lg btn-so btn-fb"><i class="fa fa-facebook pr-1"></i> Facebook</button></a>
 
-<!-- Tabbed Menu  -->
-<div class="w3">
-    <div class="w3-row w3-padding w3-opacity w3-purple">
-      <div class="w3-col s3 ">
-        <a href="#home" class="w3-button w3-block w3-purple w3-hover-pink">HOME</a>
-      </div>
-      <div class="w3-col s3">
-        <a href="#about" class="w3-button w3-block w3-purple w3-hover-pink">ABOUT</a>
-      </div>
-      <div class="w3-col s3">
-        <a href="#music" class="w3-button w3-block w3-purple w3-hover-pink">MUSIC</a>
-      </div>
-      <div class="w3-col s3">
-        <a href="#events" class="w3-button w3-block w3-purple w3-hover-pink">EVENTS</a>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item col-lg-4  text-center">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item col-lg-4  text-center">
+            <a class="nav-link js-scroll-trigger" href="#albums">Albums</a>
+          </li>
+          <li class="nav-item col-lg-4  text-center">
+            <a class="nav-link js-scroll-trigger" href="#events">Events</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
-
+  </nav>
 </div>
-
-<!-- w3-content defines a container for fixed size centered content,
-and is wrapped around the whole page content, except for the footer in this example -->
-<div class="w3-content" style="max-width:1600px">
-
   <!-- Header -->
-  <header class="w3-container w3-center w3-padding-36 w3-white">
-    <h1 class="w3-xxxlarge" id="home" ><b><i>KIM TAEYEON</i> </b></h1>
+  <header class="container center padding-36">
     <div id="container" >
         <div id="butterfly">
             <div id="leftwing">
@@ -61,336 +41,213 @@ and is wrapped around the whole page content, except for the footer in this exam
             </div>
         </div>
     </div>
-    <h6> <span class="w3-opacity w3-pink">"When singing, you need performing skills and a bit of imagination. You have to treasure the emotions, and to not deviate from the colour of the song while pouring your heart into it."</span></h6>
   </header>
 
-
-
-
-
-    <!-- Blog entries -->
-    <div class="w3-col l8 s12 w3-white " id="music">
-      <h2 class="w3-center w3-padding-16"><span class="w3-tag w3-wide">MUSIC</span></h2>
-
-
-
-<!-- Thumbnail gallery -->
-
-<div class="gallery" data-title="Stay "
-
-
-  <a target="_blank" href="https://itunes.apple.com/us/album/stay-single/1404306824">
-    <img src="photo/StayAlbum.jpg" alt="Stay Album" width="300" height="200">
-  </a>
+<div class="quote">
+  <span>"When singing, you need performing skills and a bit of imagination. You have to treasure the emotions, and to not deviate from the colour of the song while pouring your heart into it."</span>
 </div>
+<hr>
 
-<div class="gallery">
-  <a target="_blank" href="photo/SomethingNewAlbum.jpg">
-    <img src="photo/SomethingNewAlbum.jpg" alt="Something New Album" width="300" height="200">
-  </a>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="photo/ThisChristmas.png">
-    <img src="photo/ThisChristmas.png" alt="This Christmas: Winter Is Coming" width="300" height="200">
-  </a>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="photo/MyVoice.jpg">
-    <img src="photo/MyVoice.jpg" alt="My Voice - The 1st Albumn (Deluxe Edition)" width="300" height="200">
-  </a>
-</div>
-
-
-
-
-
-
-      <!-- Blog entry -->
-      <div class="w3-container w3-white w3-margin w3-padding-large">
-        <div class="w3-center">
-          <h3><a href="https://itunes.apple.com/us/album/stay-single/1404306824"><i>Stay</i></a></h3>
-          <h5><span class="w3-opacity w3-pink">June 30, 2018</span></h5>
-        </div>
-
-        <div class="w3-justify">
-          <img src="photo/StayAlbum.jpg" alt="Stay Album" style="width:100%" class="w3-padding-16">
-          <p><strong>Tracks</strong> </p>
-          <table>
-            <tr><td><a href="https://itunes.apple.com/us/album/stay-single/1404306824">Stay</a></td><td>4:12</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/stay-single/1404306824">I'm The Greatest</a></td><td>3:14</td></tr>
-
-          </table>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-clear"></p>
-        </div>
-      </div>
-      <hr>
-
-      <!-- Blog entry -->
-      <div class="w3-container w3-white w3-margin w3-padding-large">
-        <div class="w3-center">
-          <h3><a href="https://itunes.apple.com/us/album/something-new-the-3rd-mini-album-ep/1399531834"><i>Something New (EP)</i></a></h3>
-          <h5><span class="w3-opacity w3-pink">June 18, 2018</span></h5>
-        </div>
-
-        <div class="w3-justify">
-          <img src="photo/SomethingNewAlbum.jpg" alt="Something New Album" style="width:100%" class="w3-padding-16">
-          <p><strong>Tracks</strong> </p>
-          <table>
-            <tr><td><a href="https://itunes.apple.com/us/album/something-new-the-3rd-mini-album-ep/1399531834">Something New</a></td><td>3:20</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/something-new-the-3rd-mini-album-ep/1399531834">All Night Long (feat. LUCAS)</a></td><td>3:42</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/something-new-the-3rd-mini-album-ep/1399531834">Baram x 3</a></td><td>3:28</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/something-new-the-3rd-mini-album-ep/1399531834">One Day</a></td><td>3:30</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/something-new-the-3rd-mini-album-ep/1399531834">Circus</a></td><td>3:54</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/something-new-the-3rd-mini-album-ep/1399531834">Something New (Instrumental)</a></td><td>2:59</td></tr>
-
-          </table>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-clear"></p>
-        </div>
-      </div>
-      <hr>
-
-      <!-- Blog entry -->
-      <div class="w3-container w3-white w3-margin w3-padding-large">
-        <div class="w3-center">
-          <h3><a href="https://itunes.apple.com/us/album/this-christmas-winter-is-coming/1323945020"><i>This Christmas: Winter Is Coming (EP)</i></a></h3>
-          <h5><span class="w3-opacity w3-pink">December 12, 2017</span></h5>
-        </div>
-
-        <div class="w3-justify">
-          <img src="photo/ThisChristmas.png" alt="This Christmas: Winter Is Coming Album" style="width:100%" class="w3-padding-16">
-          <p><strong>Tracks</strong> </p>
-          <table>
-            <tr><td><a href="https://itunes.apple.com/us/album/this-christmas-winter-is-coming/1323945020">The Magic of Christmas Time</a></td><td>2:47</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/this-christmas-winter-is-coming/1323945020">This Christmas</a></td><td>4:27</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/this-christmas-winter-is-coming/1323945020">Let It Snow</a></td><td>3:17</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/this-christmas-winter-is-coming/1323945020">Candy Cane</a></td><td>3:24</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/this-christmas-winter-is-coming/1323945020">Christmas Without You</a></td><td>4:19</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/this-christmas-winter-is-coming/1323945020">Shhhh</a></td><td>3:48</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/this-christmas-winter-is-coming/1323945020">I'm all ears</a></td><td>3:55</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/this-christmas-winter-is-coming/1323945020">This Christmas (Instrumental)</a></td><td>4:27</td></tr>
-
-          </table>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-clear"></p>
-        </div>
-      </div>
-      <hr>
-
-      <!-- Blog entry -->
-      <div class="w3-container w3-white w3-margin w3-padding-large">
-        <div class="w3-center">
-          <h3><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971"><i>My Voice - The 1st Albumn (Deluxe Edition)</i></a></h3>
-          <h5><span class="w3-opacity w3-pink ">April 5, 2017</span></h5>
-        </div>
-
-        <div class="w3-justify">
-          <img src="photo/MyVoice.jpg" alt="This Christmas: Winter Is Coming Album" style="width:100%" class="w3-padding-16">
-          <p><strong>Tracks</strong> </p>
-          <table>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">Make Me Love You</a></td><td>3:33</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">Fine</a></td><td>3:29</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">Cover Up</a></td><td>3:25</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">Feel So Fine</a></td><td>3:39</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">I Got Love</a></td><td>3:10</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">I'm OK</a></td><td>3:34</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">Time Lapse</a></td><td>4:14</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">Sweet Love</a></td><td>3:04</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">When I Was Young</a></td><td>3:52</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">I Blame One You</a></td><td>3:23</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">Lonely Night</a></td><td>3:43</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">11:11</a></td><td>3:43</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">Love In Color</a></td><td>2:57</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">Fire</a></td><td>3:07</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">Eraser</a></td><td>2:54</td></tr>
-            <tr><td><a href="https://itunes.apple.com/us/album/my-voice-the-1st-album-deluxe-edition/1222458971">Curtain Call</a></td><td>3:52</td></tr>
-
-          </table>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-clear"></p>
-        </div>
-      </div>
-      <hr>
-
-    <!-- END BLOG ENTRIES -->
-    </div>
-
-    <!-- About/Information menu -->
-    <div class="w3-col l4 w3-white" id="about">
-      <!-- About Card -->
-      <div class="w3-white w3-margin">
-       <h2 class="w3-center w3-padding-16"><span class="w3-tag w3-wide">ABOUT</span></h2>
-        <img src="photo/avatar.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
-        <div class="w3-container w3-black">
-          <h4>안녕하세요 - Hello, </h4>
-          <p>I am 김태연 - Kim Taeyeon, a Korean singer. Welcome to my home page!</p>
-        </div>
-      </div>
-
-      <!-- Posts -->
-      <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
-          <h4>Popular Songs</h4>
-        </div>
-        <ul class="w3-ul w3-hoverable w3-white">
-          <li class="w3-padding-16">
-            <a href="https://www.youtube.com/watch?v=4OrCA1OInoo" target="_blank"><img src="photo/IAlbum.jpg" alt="I song" class="w3-left w3-margin-right" style="width:50px"></a>
-            <span class="w3-large"><a href="https://www.youtube.com/watch?v=4OrCA1OInoo">I</a></span>
-            <br>
-            <span>TAEYEON 태연 'I (feat. Verbal Jint)' MV ℗ S.M.Entertainment</span>
-          </li>
-          <li class="w3-padding-16">
-              <a href="https://www.youtube.com/watch?v=eHir_vB1RUI" target="_blank"><img src="photo/Rain.jpg" alt="Rain song" class="w3-left w3-margin-right" style="width:50px"></a>
-              <span class="w3-large"><a href="https://www.youtube.com/watch?v=eHir_vB1RUI">Rain</a></span>
-              <br>
-              <span>TAEYEON 태연 'Rain' MV ℗ S.M.Entertainment</span>
-          </li>
-          <li class="w3-padding-16">
-              <a href="https://www.youtube.com/watch?v=ulr0muQKjk0" target="_blank"><img src="photo/11-11.jpg" alt="11:11 song" class="w3-left w3-margin-right" style="width:50px"></a>
-              <span class="w3-large"><a href="https://www.youtube.com/watch?v=ulr0muQKjk0">11:11</a></span>
-              <br>
-              <span>TAEYEON 태연 '11:11' MV ℗ S.M.Entertainment</span>
-          </li>
-          <li class="w3-padding-16">
-              <a href="https://www.youtube.com/watch?v=J8P_3-3H9I4" target="_blank"><img src="photo/IfOST.jpg" alt="If song" class="w3-left w3-margin-right" style="width:50px"></a>
-              <span class="w3-large"><a href="https://www.youtube.com/watch?v=J8P_3-3H9I4">If</a></span>
-              <br>
-              <span>Hong Gil-dong (쾌도 홍길동), KOREAN, OST, Taeyeon (태연)</span>
-            </li>
-          <li class="w3-padding-16">
-                <a href="https://www.youtube.com/watch?v=Xq18IhDeAwQ" target="_blank"><img src="photo/IfOST.jpg" alt="Can You Hear Me song" class="w3-left w3-margin-right" style="width:50px"></a>
-                <span class="w3-large"><a href="https://www.youtube.com/watch?v=Xq18IhDeAwQ">Can You Hear Me</a></span>
-                <br>
-                <span>Beethoven Virus (베토벤 바이러스), KOREAN, OST, Taeyeon (태연)</span>
-          </li>
-          <li class="w3-padding-16">
-              <a href="https://www.youtube.com/watch?v=WkdtmT8A2iY" target="_blank"><img src="photo/why.jpg" alt="Why song" class="w3-left w3-margin-right" style="width:50px"></a>
-              <span class="w3-large"><a href="https://www.youtube.com/watch?v=WkdtmT8A2iY">Why</a></span>
-              <br>
-              <span>TAEYEON 태연 'Why' MV ℗ S.M.Entertainment</span>
-          </li>
-          <li class="w3-padding-16">
-              <a href="https://www.youtube.com/watch?v=eNmL4JiGxZQ" target="_blank"><img src="photo/starlight.png" alt="Starlight song" class="w3-left w3-margin-right" style="width:50px"></a>
-              <span class="w3-large"><a href="https://www.youtube.com/watch?v=eNmL4JiGxZQ">Starlight</a></span>
-              <br>
-              <span>TAEYEON 태연 'Starlight (Feat. DEAN)' MV ℗ S.M.Entertainment</span>
-          </li>
-          <li class="w3-padding-16">
-              <a href="https://www.youtube.com/watch?v=NHXUM-6a3dU" target="_blank"><img src="photo/fine.png" alt="Fine song" class="w3-left w3-margin-right" style="width:50px"></a>
-              <span class="w3-large"><a href="https://www.youtube.com/watch?v=NHXUM-6a3dU">Fine</a></span>
-              <br>
-              <span>TAEYEON 태연 'Fine' MV  ℗ S.M.Entertainment</span>
-          </li>
-          <li class="w3-padding-16">
-              <a href="https://www.youtube.com/watch?v=im1UUY8dQIk" target="_blank"><img src="photo/somethingNew.jpg" alt="Something New song" class="w3-left w3-margin-right" style="width:50px"></a>
-              <span class="w3-large"><a href="https://www.youtube.com/watch?v=im1UUY8dQIk">Something New</a></span>
-              <br>
-              <span>TAEYEON 태연 'Something New' MV ℗ SM Entertainment</span>
-          </li>
-        </ul>
-      </div>
-      <hr>
-
-      <!-- Events -->
-      <div class="w3-white w3-margin" id="events">
-        <div class="w3-container w3-padding w3-black">
-          <h4>Events</h4>
-        </div>
-        <div class="w3-container w3-white">
-          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
-            <span class="w3-display-left">
-              <ul>
-                <li><a href="http://taeyeon.smtown.com/" target="_blank">'s...TAEYEON Concert (2018)</a></li>
-                <li><a href="http://taeyeon.smtown.com/" target="_blank">Japanese Showcase Tour (2018)</a></li>
-                <li><a href="http://taeyeon.smtown.com/" target="_blank">Personal (2017)</a></li>
-                <li><a href="http://taeyeon.smtown.com/" target="_blank">Butterfly Kiss (2016)</a></li>
-              </ul>
-            </span>
+<div class="main">
+      <section class="" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="text-center">
+              <h1 class= "section-heading blinking">안녕하세요 - Hello,<h1>
+            <div class="hello"><p>I am 김태연 - Kim Taeyeon, a Korean singer. Welcome to my official home page!</p>
+              <p>
+                I had been a trainee at SM Entertainment's Starlight Academy during my middle school years before debuting as a member of the agency's girl group, Girls' Generation, in 2007.
+                Since then, I have risen to prominence due to the group's success on the Asian music scene and further participated in the agency's projects Girls' Generation-TTS, SM the Ballad, and Girls' Generation-Oh!GG.</p>
+              <p>Aside from group activities, I have also recorded songs for various television dramas and movies.</p>
+            </div>
+            </div>
           </div>
         </div>
-      </div>
-      <hr>
+      </section>
 
-
-      <!-- Subscribe -->
-      <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
-          <h4>Subscribe</h4>
+      <section id="songs">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h1 class="hd1 section-heading blinking">Popular Songs</h1>
+            </div>
+          </div>
         </div>
-        <div class="w3-container w3-white">
-          <p>Enter your e-mail below and get notified on the latest news.</p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
-          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <a href="https://www.youtube.com/watch?v=4OrCA1OInoo" target="_blank"><img src="photo/IAlbum.jpg" alt="I song" class="left margin-right" style="width:150px"></a>
+                <span class="large"><a href="https://www.youtube.com/watch?v=4OrCA1OInoo"></span>
+                <br>
+                <span>TAEYEON 태연 'I (feat. Verbal Jint)' MV ℗ S.M.Entertainment</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <a href="https://www.youtube.com/watch?v=eHir_vB1RUI" target="_blank"><img src="photo/Rain.jpg" alt="Rain song" class="left margin-right" style="width:150px"></a>
+                <span class="large"><a href="https://www.youtube.com/watch?v=eHir_vB1RUI"></span>
+                <br>
+                <span>TAEYEON 태연 'Rain' MV ℗ S.M.Entertainment</span>
+              </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <a href="https://www.youtube.com/watch?v=ulr0muQKjk0" target="_blank"><img src="photo/11-11.jpg" alt="11:11 song" class="left margin-right" style="width:150px"></a>
+                <span class="large"><a href="https://www.youtube.com/watch?v=ulr0muQKjk0"></span>
+                <br>
+                <span>TAEYEON 태연 '11:11' MV ℗ S.M.Entertainment</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <a href="https://www.youtube.com/watch?v=J8P_3-3H9I4" target="_blank"><img src="photo/IfOST.jpg" alt="If song" class="left margin-right" style="width:150px"></a>
+                <span class="w3-large"><a href="https://www.youtube.com/watch?v=J8P_3-3H9I4"></span>
+                <br>
+                <span>Hong Gil-dong (쾌도 홍길동), KOREAN, OST, Taeyeon (태연)</span>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-    <!-- END About/Intro Menu -->
-    </div>
 
-  <!-- END GRID -->
-  </div>
+      <section class="p-0" id="albums">
+        <div class="col-lg-12 text-center">
+          <h1 class="hd2 section-heading blinking">Albums</h1>
+        </div>
+        <div class="container-fluid p-0">
+          <div class="row no-gutters popup-gallery">
 
-<!-- END w3-content -->
+            <div class=" al col-lg-4 col-sm-6">
+              <div class="gallery"
+                                   data-description1="1. Stay" \A data-description2="2. I'm The Greatest">
+                <a target="_blank" href="https://itunes.apple.com/us/album/stay-single/1404306824">
+                  <img src="photo/StayAlbum.png" alt="Stay Album" width="400" height="400">
+                </a>
+              </div>
+            </div>
+
+            <div class="al col-lg-4 col-sm-6">
+              <div class="gallery"
+                                   data-description1="1. Something New" \A data-description2="2. All Night Long (feat. LUCAS)" \A data-description3="3. Baram x 3" \A data-description4="4. One Day" \A data-description5="5. Circus" \A data-description6="6. Something New (Instrumental)">
+                <a target="_blank" href="photo/SomethingNewAlbum.jpg">
+                  <img src="photo/SomethingNewAlbum.jpg" alt="Something New Album" width="400" height="400">
+                </a>
+              </div>
+            </div>
+
+            <div class="al col-lg-4 col-sm-6 ">
+              <div class="gallery"
+                                    data-description1="1. The Magic of Christmas Time" \A data-description2="2. This Christmas" \A data-description3="3. Let It Snow" \A data-description4="4. Candy Cane" \A data-description5="5. Christmas Without You" \A data-description6="6. Shhhh" \A data-description7="7. I'm all ears" \A data-description8="8. This Christmas (Instrumental)">
+                <a target="_blank" href="photo/ThisChristmas.png">
+                  <img src="photo/ThisChristmas.png" alt="This Christmas: Winter Is Coming" width="400" height="400">
+                </a>
+              </div>
+            </div>
+
+            <div class="al col-lg-4 col-sm-6">
+              <div class="gallery"
+                            data-description1="1. Make Me Love You" \A data-description2="2. Fine" \A data-description3="3. Cover Up" \A data-description4="4. Feel So Fine" \A data-description5="5. I Got Love" \A data-description6="6. I'm OK" \A data-description7="7. Time Lapse" \A data-description8="8. Sweet Love" \A data-description9="9. When I Was Young" \A data-description10="10. I Blame One You" \A data-description11="11. Lonely Night" \A data-description12="12. 11:11" \A data-description13="13. Love In Color" \A data-description14="14. Fire" \A data-description15="15. Eraser" \A data-description16="16. Curtain Call" >
+
+                <a target="_blank" href="photo/MyVoice.jpg">
+                  <img src="photo/MyVoice.jpg" alt="My Voice - The 1st Albumn (Deluxe Edition)" width="400" height="400">
+                </a>
+              </div>
+            </div>
+
+            <div class="al col-lg-4 col-sm-6">
+              <div class="gallery"
+                            data-description1="1. Why" \A data-description2="2. Starlight (Feat. Dean)" \A data-description3="3. Fashion" \A data-description4="4. Hands On Me" \A data-description5="5. Up & Down (Feat. Hyoyeon)" \A data-description6="6. Good Thing" \A data-description7="7. Night">
+
+                <a target="_blank" href="photo/MyVoice.jpg">
+                  <img src="photo/WhyAlbum.jpg" alt="Why (EP)" width="400" height="400">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="events">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h1 class="hd1 section-heading blinking">Events</h1>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <a href="http://taeyeon.smtown.com/" target="_blank"><img src="photo/TaeyeonConcert.jpg" alt="'s...TAEYEON Concert (2018)" class="left margin-right" style="width:150px"></a>
+                <span class="large"><a href=href="http://taeyeon.smtown.com/"></span>
+                <br>
+                <span>'s...TAEYEON Concert (2018)</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <a href=href="http://taeyeon.smtown.com/" target="_blank"><img src="photo/JPTour18.png" alt="Japanese Showcase Tour (2018)" class="left margin-right" style="width:150px"></a>
+                <span class="large"><a href=href="http://taeyeon.smtown.com/"></span>
+                <br>
+                <span>Japanese Showcase Tour (2018)</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <a href=href="http://taeyeon.smtown.com/" target="_blank"><img src="photo/Persona.jpg" alt="Persona (2017)" class="left margin-right" style="width:150px"></a>
+                <span class="large"><a href=href="http://taeyeon.smtown.com/"></span>
+                <br>
+                <span>Persona (2017)</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <a href=href="http://taeyeon.smtown.com/" target="_blank"><img src="photo/ButterflyKiss.jpg" alt="Butterfly Kiss (2016)" class="left margin-right" style="width:150px"></a>
+                <span class="large"><a href=href="http://taeyeon.smtown.com/"></span>
+                <br>
+                <span>Butterfly Kiss (2016)</span>
+                </a>
+              </div>
+            </div>
+
+
+          </div>
+        </section>
+
+      <section>
+        <div class="simple-subscription-form">
+          <form>
+            <h4>Subscribe</h4>
+            <p>Receive updates and latest news direct from my music. Simply enter your email below :</p>
+            <div class="input-group">
+              <span class="input-group-label">
+              <i class="fa fa-envelope"></i>
+            </span>
+            <input class="input-group-field" type="email" placeholder="Email" required>
+            <button class="button">Sign up now</button>
+          </form>
+        </div>
+      </section>
 </div>
 
-<!-- Subscribe Modal -->
-<div id="subscribe" class="w3-modal w3-animate-opacity">
-  <div class="w3-modal-content" style="padding:32px">
-    <div class="w3-container w3-white">
-      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
-      <h2 class="w3-wide">SUBSCRIBE</h2>
-      <p>Enter your e-mail below and get notified on the latest news.</p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
-      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
-    </div>
-  </div>
-</div>
 
-<!-- Footer -->
-<footer class="w3-container w3-white" style="padding:32px">
-  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-</footer>
-
-<script>
-// Toggle between hiding and showing blog replies/comments
-document.getElementById("myBtn").click();
-function myFunction(id) {
-    var x = document.getElementById(id);
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
-function likeFunction(x) {
-    x.style.fontWeight = "bold";
-    x.innerHTML = "✓ Liked";
-}
-
-
-
-
-//Tabbed Menu
-function openMenu(evt, menuName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("menu");
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
-  }
-  document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
-}
-document.getElementById("myLink").click();
-
-</script>
-
-</body>
-</html>
+    </body>
+  </html>
