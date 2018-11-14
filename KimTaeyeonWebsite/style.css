@@ -1,5 +1,7 @@
 body{
 	height: auto;
+    background-color:pink;
+
 }
 
 html {
@@ -22,6 +24,12 @@ html {
   color: #ea98f2;
 }
 
+header.container{
+  height: 600 ;
+  width: 720;
+  background-color:pink;
+}
+
 /*Butterfly */
 
 div#container{
@@ -33,7 +41,7 @@ div#container{
     height: 600px;
 
     top: 0px;
-    color:white;
+    background-color:pink;
     margin: 0px auto;
 }
 
@@ -135,7 +143,7 @@ div#leftwing{
 }
 
 .blinking{
-		color: #ea98f2;
+	color: #ea98f2;
 	  animation:blinkingText 1.4s infinite;
 }
 
@@ -148,20 +156,30 @@ div#leftwing{
 }
 
 .hello{
-	color: gray;
+	color: #ea98f2;
+    background-color:pink;
+
+}
+
+div.main{
+        background-color:pink;
+
 }
 
 #about{
-	background-color: white;
+    color:#ea98f2;
+    background-color:pink;
 	padding: 3rem 0 3rem 3rem;
 }
 
 #songs{
+    color:#ea98f2;
 	padding: 3rem 0 3rem 3rem;
 }
 
 
 #albums{
+    color: #ea98f2;
 	padding: 3rem 0 3rem 3rem;
 }
 
