@@ -1,6 +1,6 @@
 body{
 	height: auto;
-    background-color:pink;
+    background-color:#FFB6C1;
 
 }
 
@@ -13,7 +13,7 @@ html {
 /* Nav bar */
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: pink;
+  background-color: #FFB6C1;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -21,13 +21,13 @@ html {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #ea98f2;
+  color: #FF1493;
 }
 
 header.container{
   height: 600 ;
   width: 720;
-  background-color:pink;
+  background-color:#FFB6C1;
 }
 
 /*Butterfly */
@@ -41,7 +41,7 @@ div#container{
     height: 600px;
 
     top: 0px;
-    background-color:pink;
+    background-color:#FFB6C1;
     margin: 0px auto;
 }
 
@@ -135,7 +135,7 @@ div#leftwing{
 }
 
 .quote{
-	font-size: 14px;
+	font-size: 15px;
 	padding: 1.5rem;
 	float: center;
 	color: gray;
@@ -143,32 +143,26 @@ div#leftwing{
 }
 
 .blinking{
-	color: #ea98f2;
-	  animation:blinkingText 1.4s infinite;
+	color: #FF1493;
+	animation:blinkingText 1.4s infinite;
 }
 
 @keyframes blinkingText{
-    0%{     color: #000;    }
+    0%{     color: #FF1493;    }
     49%{    color: transparent; }
     50%{    color: transparent; }
     99%{    color:transparent;  }
-    100%{   color: #000;    }
+    100%{   color: #FF1493;    }
 }
 
 .hello{
 	color: #ea98f2;
-    background-color:pink;
-
 }
 
-div.main{
-        background-color:pink;
 
-}
 
 #about{
     color:#ea98f2;
-    background-color:pink;
 	padding: 3rem 0 3rem 3rem;
 }
 
@@ -307,9 +301,8 @@ div.desc {
 
 /*Subcribe box */
 .simple-subscription-form {
-	color: black;
-  background: pink;
-  color: black;
+	color: #FF1493;
+  background: #FFB6C1;
   padding: 2rem;
   border-radius: 0;
 }
